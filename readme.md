@@ -73,3 +73,5 @@ https://bad-apple-github-readme.vercel.app/api?username=PATILYASHH&show_icons=tr
 </div>
 
 <br/><br/>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=PATILYASHH" alt="bashamega" /></a> </p>
