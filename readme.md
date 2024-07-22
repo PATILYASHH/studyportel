@@ -63,9 +63,9 @@
 <br>
 <div align=center>
 
-![GitHub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=annuk123&layout=compact&theme=blue-green)
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=annuk123&theme=blue-green)](https://git.io/streak-stats)
-[![github stats](https://bad-apple-github-readme.vercel.app/api?username=annuk123&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)](#)
+![GitHub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PATILYASHH&layout=compact&theme=blue-green)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=PATILYASHH&theme=blue-green)](https://git.io/streak-stats)
+[![github stats](https://bad-apple-github-readme.vercel.app/api?username=PATILYASHH&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)](#)
 
 
  <!--  <img width=390 src="https://github-readme-stats.vercel.app/api?username=annuk123&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
