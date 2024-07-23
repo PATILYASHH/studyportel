@@ -75,3 +75,10 @@ https://bad-apple-github-readme.vercel.app/api?username=PATILYASHH&show_icons=tr
 <br/><br/>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=PATILYASHH" alt="bashamega" /></a> </p>
+
+
+
+
+![](https://github-readme-stats.vercel.app/api?username=patilyashh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=patilyashh&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=patilyashh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
