@@ -3,43 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syllabus </title>
+    <title>StudyPortel</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .search-bar-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-bar {
+            max-width: 600px;
+            width: 100%;
+            border-radius: 25px;
+            border: 1px solid #007bff;
+            padding: 10px 20px;
+            font-size: 16px;
         }
         .container {
-            max-width: 600px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .course-link {
-            text-decoration: none;
-            font-size: 18px;
-            color: #333;
-            display: block;
-            margin: 15px 0;
-            padding: 10px;
-            background-color: #e7e7e7;
-            border-radius: 5px;
+        .course-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
         }
-        .course-link:hover {
-            background-color: #d4d4d4;
+        .course-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        .course-card .card-body {
+            padding: 20px;
+        }
+        .course-card .card-body h5 {
+            margin-bottom: 15px;
+        }
+        .icon-btn {
+            color: #007bff;
+            margin-right: 15px;
+        }
+        .icon-btn:hover {
+            color: #0056b3;
+        }
+        .icon-btn i {
+            font-size: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contribute-section, .docs-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contribute-section h2, .docs-section h2 {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Syllabus</h1>
-        <a class="course-link" href="bcs/bcs.html">BCS</a>
-        <a class="course-link" href="#">BCA</a>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">StudyPortel</a>
+            <div class="d-flex">
+                <a href="https://github.com/PATILYASHH/studyportel" class="icon-btn" target="_blank">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+                <a href="docs.html" class="icon-btn ms-3" target="_blank">
+                    <i class="fas fa-file-alt"></i> Docs
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="header">
+            <h1 class="display-4">Explore Educational Materials</h1>
+            <p class="lead">Find and search through various academic resources with ease.</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar-container">
+            <input type="text" id="searchInput" class="form-control search-bar" placeholder="Search for a course...">
+        </div>
+
+        <!-- Course Cards -->
+        <div id="courseList" class="row">
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">BCS</h5>
+                        <p class="card-text">Bachelor of Computer Science syllabus and resources.</p>
+                        <a href="bcs/bcs.html" class="btn btn-primary">View resources</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">BCA</h5>
+                        <p class="card-text">Bachelor of Computer Applications syllabus and resources.</p>
+                        <a href="#" class="btn btn-primary">View resources</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">BSC</h5>
+                        <p class="card-text">Bachelor of Science syllabus and resources.</p>
+                        <a href="#" class="btn btn-primary">View resources</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">BTECH</h5>
+                        <p class="card-text">Bachelor of Technology syllabus and resources.</p>
+                        <a href="#" class="btn btn-primary">View resources</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">BCOM</h5>
+                        <p class="card-text">Bachelor of Commerce syllabus and resources.</p>
+                        <a href="#" class="btn btn-primary">View resources.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contribute Section -->
+        <div class="contribute-section">
+            <h2>How to Contribute</h2>
+            <p>If you would like to contribute to StudyPortel, here’s how you can help:</p>
+            <ul>
+                <li>Fork the repository on GitHub and make your changes.</li>
+                <li>Submit a pull request with your improvements.</li>
+                <li>Report any issues or suggest new features through GitHub issues.</li>
+            </ul>
+            <a href="https://github.com/PATILYASHH/studyportel" class="btn btn-outline-primary" target="_blank">
+                <i class="fab fa-github"></i> View Repository
+            </a>
+        </div>
+
+        <!-- Documentation Section -->
+        <div class="docs-section">
+            <h2>Documentation</h2>
+            <p>For detailed documentation, including setup instructions and usage guides, visit the docs section:</p>
+            <a href="docs.html" class="btn btn-outline-secondary" target="_blank">
+                <i class="fas fa-file-alt"></i> View Docs
+            </a>
+        </div>
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery for Search Logic -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Search bar logic
+            $('#searchInput').on('keyup', function() {
+                var value = $(this).val().toLowerCase();
+                $('#courseList .course-card').filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
